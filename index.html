@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="assets/icon.png">
   <title>Pour Coffee</title>
   <style>
     body {
       margin: 0;
       font-family: "Poppins", sans-serif;
-      background-color: #f3e9dc;
+      background-color: #d9c496;
       color: #4b2e05;
       text-align: center;
     }
     header {
-      padding: 2rem 1rem 1rem;
+      padding: 1rem 1rem 0.2rem;
     }
     header img {
       max-width: 200px;
@@ -21,10 +22,10 @@
     }
     .menu-section img {
       max-width: 90%;
-      height: auto;
+      height: 500px;
       border-radius: 20px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      margin: 1.5rem 0;
+      margin: 0 0 2rem 0;
     }
     .socials {
       display: flex;
@@ -48,6 +49,18 @@
     .socials a:hover {
       background-color: #7b4c10;
     }
+
+    .socials img {
+      width: 60%;
+      height: 60%;
+      object-fit: contain;
+      transition: 0.3s;
+    }
+
+    .socials a:hover img {
+      transform: scale(1.1);
+    }
+
     footer {
       font-size: 0.8rem;
       padding-bottom: 1rem;
@@ -58,18 +71,26 @@
 </head>
 <body>
   <header>
-    <img src="https://i.imgur.com/biQXQkU.jpg" alt="Pour Coffee Logo" />
-    <h2>Pour Coffee</h2>
+    <img src="assets/logo.png" alt="Pour Coffee Logo" />
+    <h1>Menu</h1>
   </header>
 
   <section class="menu-section">
-    <img src="https://i.imgur.com/biQXQkU.jpg" alt="Pour Coffee Menu" />
+    <img src="assets/menu.png" alt="Pour Coffee Menu" />
   </section>
 
+  <h2>Follow Us</h2>
+
   <div class="socials">
-    <a href="https://www.facebook.com/profile.php?id=61568706445402" target="_blank"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://www.instagram.com/pourcoffeee" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.tiktok.com/@pourcoffeee" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=61568706445402" target="_blank"><i class="fab fa-facebook-f"></i>
+      <img src="assets/icon_fb.png" alt="Facebook" />
+    </a>
+    <a href="https://www.instagram.com/pourcoffeee" target="_blank"><i class="fab fa-instagram"></i>
+      <img src="assets/icon_ig.png" alt="Instagram" />
+    </a>
+    <a href="https://www.tiktok.com/@pourcoffeee" target="_blank"><i class="fab fa-tiktok"></i>
+      <img src="assets/icon_tiktok.png" alt="TikTok" />
+    </a>
   </div>
 
   <footer>
