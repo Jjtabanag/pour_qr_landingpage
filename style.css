@@ -130,6 +130,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .logo {
+        height: 130px;
+    }
+
     .socials {
         gap: 18px;
     }
