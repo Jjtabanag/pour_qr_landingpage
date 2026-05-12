@@ -4,97 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css" />
   <title>Pour Coffee</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Poppins", sans-serif;
-      background-color: #d9c496;
-      color: #4b2e05;
-      text-align: center;
-    }
-    header {
-      padding: 1rem 1rem 0.2rem;
-    }
-    header img {
-      max-width: 150px;
-      height: auto;
-    }
-    .menu-section img {
-      max-width: 90%;
-      height: 500px;
-      border-radius: 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      margin: 0 0 2rem 0;
-    }
-    .socials {
-      display: flex;
-      justify-content: center;
-      gap: 1.5rem;
-      padding: 1rem 0 2rem;
-    }
-    .socials a {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #4b2e05;
-      color: #f3e9dc;
-      text-decoration: none;
-      font-size: 22px;
-      transition: 0.3s;
-    }
-    .socials a:hover {
-      background-color: #7b4c10;
-    }
-
-    .socials img {
-      width: 60%;
-      height: 60%;
-      object-fit: contain;
-      transition: 0.3s;
-    }
-
-    .socials a:hover img {
-      transform: scale(1.1);
-    }
-
-    footer {
-      font-size: 0.8rem;
-      padding-bottom: 1rem;
-      color: #6b4e1d;
-    }
-  </style>
   <script src="https://kit.fontawesome.com/2d2a4d2f49.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <img src="assets/logo.png" alt="Pour Coffee Logo" />
-    <h1>Menu</h1>
-  </header>
+  <div class="hero-overlay">
+    
+    <img class="logo" src="assets/logo.png" alt="Pour Coffee Logo" />
 
-  <section class="menu-section">
-    <img src="assets/menu.png" alt="Pour Coffee Menu" />
-  </section>
+    <section class="content">
+      <h2>Follow Us</h2>
 
-  <h2>Follow Us</h2>
+      <div class="socials">
+        <a href="https://www.facebook.com/profile.php?id=61568706445402" target="_blank">
+          <img src="assets/icon_fb.png" alt="Facebook" />
+        </a>
 
-  <div class="socials">
-    <a href="https://www.facebook.com/profile.php?id=61568706445402" target="_blank"><i class="fab fa-facebook-f"></i>
-      <img src="assets/icon_fb.png" alt="Facebook" />
-    </a>
-    <a href="https://www.instagram.com/pourcoffeee" target="_blank"><i class="fab fa-instagram"></i>
-      <img src="assets/icon_ig.png" alt="Instagram" />
-    </a>
-    <a href="https://www.tiktok.com/@pourcoffeee" target="_blank"><i class="fab fa-tiktok"></i>
-      <img src="assets/icon_tiktok.png" alt="TikTok" />
-    </a>
+        <a href="https://www.instagram.com/pourcoffeee" target="_blank">
+          <img src="assets/icon_ig.png" alt="Instagram" />
+        </a>
+
+        <a href="https://www.tiktok.com/@pourcoffeee" target="_blank">
+          <img src="assets/icon_tiktok.png" alt="TikTok" />
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Pour Coffee. All rights reserved.
+    </footer>
   </div>
-
-  <footer>
-    © 2025 Pour Coffee. All rights reserved.
-  </footer>
 </body>
 </html>
